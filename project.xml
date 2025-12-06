@@ -1,0 +1,7 @@
+<project name="ui_demo">
+	<targets>
+		<target name="target1">
+			<display width="240" height="284" color_format="rgb565" />
+		</target>
+	</targets>
+</project>
