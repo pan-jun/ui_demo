@@ -1,0 +1,33 @@
+<globals>
+	<api>
+		<!-- Add <enumdefs> here -->
+	</api>
+
+	<consts>
+		<!-- Add <px>, <int>, <color> etc here -->
+		<color name="screen_bg_color" value="0xFFFFFF" />
+	</consts>
+
+	<styles>
+		<!-- Add <style> tags here -->
+		<style name="red" border_width="2px" border_color="0xFF0000" />
+		<style name="blue" border_width="2px" border_color="0x0000FF" />
+		<style name="green" border_width="2px" border_color="0x00FF00" />
+	</styles>
+
+	<subjects>
+		<!-- Add <int>, <string>, or <float> subjects here -->
+		<string name="test_text" value="" />
+		<int name="test_int" value="0" min_value="0" max_value="10" help="0~100" />
+		<string name="test_int_string" value="" />
+		<int name="slider_value" value="0" />
+	</subjects>
+
+	<images>
+		<!-- Add <file> or <data> tags here -->
+	</images>
+
+	<fonts>
+		<!-- Add <bin> , <tiny_ttf>, <freetype> tags here -->
+	</fonts>
+</globals>

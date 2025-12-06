@@ -1,0 +1,27 @@
+<screen permanent="true">
+	<styles>
+		<style name="style_about" bg_color="#screen_bg_color" />
+	</styles>
+	<view>
+		<lv_button align="center" style_bg_color="0x365be0" style_radius="16">
+			<lv_label text="Back" />
+			<screen_load_event screen="main_screen" anim_type="fade_in" duration="300" />
+		</lv_button>
+
+		<lv_button align="top_left">
+			<lv_label bind_text="test_text" />
+			<event_cb callback="my_callback_1" trigger="clicked" />
+		</lv_button>
+
+		<lv_obj align="bottom_mid" flex_flow="column" width="content" height="content">
+			<lv_label style_text_color="0xFF0000" bind_text="test_int_string" />
+			<lv_button align="bottom_mid">
+				<lv_label text="inc" />
+				<subject_increment_event trigger="clicked" subject="test_int" step="1" rollover="true" />
+				<event_cb callback="my_callback_2" trigger="clicked" />
+			</lv_button>
+		</lv_obj>
+
+		<my_slider width="100%" y="50" />
+	</view>
+</screen>

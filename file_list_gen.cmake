@@ -1,0 +1,10 @@
+list(
+  APPEND
+  PROJECT_SOURCES
+  ${CMAKE_CURRENT_LIST_DIR}/components/my_button_gen.c
+  ${CMAKE_CURRENT_LIST_DIR}/components/my_group_button_gen.c
+  ${CMAKE_CURRENT_LIST_DIR}/components/my_slider_gen.c
+  ${CMAKE_CURRENT_LIST_DIR}/screens/about_screen_gen.c
+  ${CMAKE_CURRENT_LIST_DIR}/screens/main_screen_gen.c
+  ${CMAKE_CURRENT_LIST_DIR}/ui_demo_gen.c
+  ${CMAKE_CURRENT_LIST_DIR}/ui_demo.c)

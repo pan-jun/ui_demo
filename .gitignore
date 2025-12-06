@@ -39,3 +39,6 @@
 
 # debug information files
 *.dwo
+
+preview-build
+preview-bin
